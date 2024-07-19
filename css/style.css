@@ -1,14 +1,289 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-   margin: 0%;
-   padding: 0%;
-   font-family: "Montserrat", sans-serif;
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;
 }
 
-section{
+.landing {
     background-image: url("../img/bg.webp");
     background-size: cover;
     height: 100vh;
-
+    padding: 10px 30px;
 }
+.landing ol {
+    display: inline flex;
+    list-style: none;
+}
+.landing li {
+    margin-right: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.logo {
+    color: white;
+    font-size: 25px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 125px;
+    color: white;
+    margin-top: 35px;
+}
+a.btn {
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+a.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.mind {
+    color: white;
+    font-weight: 600;
+}
+.bottom {
+    margin: 45px 0;
+}
+.middle {
+    background-color: #a1002e;
+    color: white;
+    padding: 10px 30px;
+}
+.middle h2 {
+    font-size: 70px;
+    margin-bottom: 130px;
+}
+
+.middle h3 {
+    font-size: 60px;
+    margin-bottom: 130px;
+}
+
+.middle p {
+    font-size: 20px;
+}
+
+.box1 {
+    background-color: #b43358;
+    width: 485px;
+    float: right;
+    padding: 10px 30px;
+}
+.box2 {
+    background-color: #c76682;
+    width: 485px;
+    float: right;
+    padding: 10px 30px;
+}
+.box3 {
+    background-color: #d999ab;
+    width: 485px;
+    float: right;
+    padding: 10px 30px;
+}
+a.son {
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    margin-top: 200px;
+}
+a.son:hover {
+    background-color: black;
+    color: white;
+}
+.mateen {
+    background-color: #798094;
+    padding: 30px;
+}
+.bro {
+    font-size: 45px;
+    color: white;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.con {
+    font-size: 50px;
+    color: white;
+}
+
+.muneez {
+    background-color: black;
+    padding: 30px 30px;
+}
+.man {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+.men {
+    font-size: 50px;
+    color: grey;
+    margin-top: -25px;
+}
+.fam {
+    font-size: 25px;
+    color: white;
+}
+.tan {
+    font-size: 20px;
+    color: grey;
+}
+.cum {
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    border-radius: 30px;
+    float: right;
+    margin-top: -4%;
+}
+
+a.cum:hover {
+    background-color: black;
+    color: white;
+}
+
+.mateen img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 500px;
+}
+
+.ice-img img {
+    position: relative;
+}
+
+.ice-img p {
+    position: absolute;
+    right: 3%;
+    margin-top: -60px;
+    color: white;
+}
+.muneez img{
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 500px;
+}
+.lastpart{
+    background-color:#cec7ae ;
+    padding: 30px 30px;
+}
+
+.lastpart h1 {
+    font-size: 70px;
+    margin-bottom: 170px;
+}
+
+.lastpart2 {
+    margin-left: 40px;
+}
+
+.miss{
+    font-size: 80px;
+    color: black;
+    font-weight: 600;
+    float: right;
+    margin-top: -10px;
+    
+}
+.suss p{
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.below{
+    font-size: 90px;
+    color:gray;
+    font-weight: 600;
+    margin-bottom: 150px;
+
+
+    
+}
+.min{
+    font-size: 25px;
+    color:black;
+    font-weight: 600;
+    float: right;
+    margin-bottom: 50px;
+}
+.lastpart img{
+    object-fit: cover;
+    object-position: 80% 80%;
+    width: 620px;
+    position: relative;
+}
+.george{
+    position: relative;
+}
+.george p{
+    position: absolute;
+    right: 3%;
+    margin-top: -60px;
+    color: white;
+}
+.lastpart2 a{
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 10px;
+    
+}
+.lastpart2 a:hover{
+    background-color: black;
+    color: white;
+}
+.place{
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.higher p{
+    color: white;
+    font-size: 50px;
+    font-style: 1000px;
+}
+.higher{
+    background-color: black;
+   
+   
+}
+.higher a{
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    border-radius: 30px;
+    
+}
+.higher a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
